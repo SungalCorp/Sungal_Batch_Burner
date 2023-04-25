@@ -158,6 +158,7 @@ def burnBatchesAndSerialNumbers(nSockets,firstSocket,batchno,myTCPIPSocket):
         requestString = binascii.unhexlify(unhexifiedString)
         print("                unhexifiedrequestString = ",unhexifiedString)
         
+        
         try:
             # write to sector, get response
             writeSectorResponse = sendHexString(requestString,myTCPIPSocket)
