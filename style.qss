@@ -1,0 +1,41 @@
+QMainWindow {
+    /*background-color: "#222";*/
+    /*color: "#eee"*/
+}
+QWidget {
+    /*background-color: "#333";*/
+    /*color: "#eee"; */
+    /*padding: 0px*/
+}
+
+QPushButton {
+    background-color: "#7A0";
+    color: "#FFF";  
+}
+
+QPushButton:disabled {
+	background-color: #BBB;
+	color: "#D8D8D8"; 
+}
+QTableView {
+    border: 1px solid "#222";
+    padding: 0px;
+    font-family: "Arial";
+    font-size: 11px;
+    alternate-background-color: "#424242"
+}
+QTableView::item:selected {
+    /*background-color: "#3388ff"*/
+}
+QTableView QTableCornerButton::section {
+    /*background-color: "#292929";*/
+    border: 1px;
+    padding: 0px
+}
+QHeaderView, QHeaderView::section {
+    /*background-color: "#292929";*/
+    /*color: "#eee";*/
+    font-size: 11px;
+    border: 1px;
+    padding: 0px
+}
